@@ -282,7 +282,7 @@ argv.each do |filename|
       when 'IEND'
         skip_chunk buf, head
       else
-        raise "Unhanled chunk #{head[:name]}"
+        raise "Unhandled chunk #{head[:name]}"
       end
     end
   end
